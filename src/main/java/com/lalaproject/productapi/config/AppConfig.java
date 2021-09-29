@@ -14,7 +14,7 @@ public class AppConfig {
     public OpenAPI customOpenAPI(@Value("${application-description}") String appDesciption, @Value("${application-version}") String appVersion) {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Lala Product API")
+                        .title("UEL-7021 Product API")
                         .version(appVersion)
                         .description(appDesciption)
                         .termsOfService("http://ozzy.io/terms/")
